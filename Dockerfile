@@ -1,6 +1,6 @@
 FROM node:18
 
-COPY /react-app /app
+COPY . /app
 
 WORKDIR /app
 
